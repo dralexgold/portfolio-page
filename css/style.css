@@ -454,6 +454,10 @@ time, mark, audio, video {
 
 /* Page CSS */
 
+ul, ol {
+  list-style: none;
+}
+
 section, footer {
   /* Typography Declarations */
   color: #475558;
@@ -501,25 +505,21 @@ background-size: 20px 20px;
   font-weight: 300;
 }
 
- div {
+ /* div {
   border: 1px solid Chocolate;
- }
+ } */
 
 
 .content {
     padding: 1rem;
     margin: 0 auto;
-    max-width: 38rem;
+    max-width: 48rem;
 }
 
 .masthead-heading > .surname {
   font-weight: 500;
   /*color: #bea201;*/
   color: #d9b504;
-}
-
-.projects-section {
-
 }
 
 .social > li {
@@ -532,6 +532,14 @@ background-size: 20px 20px;
   color: white;
 }
 
+.projects-section .project-examples {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+  margin: 1rem auto;
+}
 
 .projects-section > p,
 .about-section > p,
