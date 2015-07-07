@@ -454,11 +454,11 @@ time, mark, audio, video {
 
 /* Page CSS */
 
-body {
+section, footer {
   /* Typography Declarations */
   color: #475558;
   font-size: 1em;
-  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /*@media only screen and (max-width: 500px) {
@@ -480,16 +480,30 @@ body {
 .masthead {
   padding: 1rem 0;
   background-size: cover;
-  background-color: #6a8aa6;
   box-shadow: 3px 3px 3px 3px #ccc;
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #272140;
+background-size: 20px 20px;
 }
 
 .masthead-heading {
-  font-family: "Ubuntu", "Helvetica Neue", sans-serif;
-  font-size: 2em;
-  letter-spacing: -0.02em;
+  font-family: "Oswald", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-} 
+  color: #bcb8bd;
+  font-weight: 300;
+}
+
+ div {
+  border: 1px solid Chocolate;
+ }
 
 
 .content {
@@ -498,8 +512,14 @@ body {
     max-width: 38rem;
 }
 
+.masthead-heading > .surname {
+  font-weight: 500;
+  /*color: #bea201;*/
+  color: #d9b504;
+}
+
 .projects-section {
-  background-color: #568ebf;
+
 }
 
 .social > li {
@@ -511,6 +531,7 @@ body {
 .content-footer > p {
   color: white;
 }
+
 
 .projects-section > p,
 .about-section > p,
@@ -529,13 +550,14 @@ body {
   margin: 2em 0 1em 0;
 }
 
-section > h1 {
+section > div > h1 {
   margin: 0;
-  padding-top: 2em;
+  font-size: 1.5em;
+  padding: 2em 0;
 }
 
 .content-footer {
-  background-color: #475558;
+  background-color: #272140;
   background-size: cover;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -544,6 +566,6 @@ section > h1 {
 
 a {
   text-decoration: none;
-  color: #9caddb;
+  color: #d9b504;
   font-weight: bold;
 }
