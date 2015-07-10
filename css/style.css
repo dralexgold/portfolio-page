@@ -530,21 +530,29 @@ background-size: 20px 20px;
   text-align: center;
 }
 
+.projects-section li {
+  margin: 1em 0;
+}
+
 .projects-section  h3 {
   margin-bottom: 1rem;
 }
 
 .caption {
   text-align: center;
-  margin: 1rem auto;
+  margin: 1rem auto 2rem auto;
 }
 
 .projects-section > p,
-.about-section > p,
+.about-section p,
 .content-footer > p {
   /* Typography Declarations */
   font-weight: 400;
   margin-top: 1em;
+}
+
+.projects-section img {
+  box-shadow: 3px 3px 3px 3px #ccc;
 }
 
 .content-footer > p {
@@ -557,13 +565,13 @@ background-size: 20px 20px;
   font-size: 1.2em;
   font-weight: bold;
   /* Layout */
-  margin: 2em 0 1em 0;
+  margin: 2em 0 0.5em 0;
 }
 
 section > div > h1 {
   margin: 0;
   font-size: 1.5em;
-  padding: 2em 0;
+  padding: 2em 0 0.5em 0;
 }
 
 .degree-name {
@@ -576,7 +584,7 @@ section > div > h1 {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 3em;
-  box-shadow: 0 -3px 0 0 #ccc;
+  box-shadow: 0px -6px 0px 0px #ccc;
 }
 
 .content-footer .icons > li {
@@ -593,22 +601,22 @@ section > div > h1 {
 .content-footer .icons > li:hover {
     cursor: pointer;
 }
-.content-footer .github {
+.content-footer .github a {
   color: #000;
 }
-.content-footer .linkedin {
+.content-footer .linkedin a {
   color: #007bb6;
 }
-.content-footer .google-plus {
+.content-footer .google-plus a {
   color: #dd4b39;
 }
-.content-footer .twitter {
+.content-footer .twitter a {
     color: #55acee;
 }
-.content-footer .facebook {
+.content-footer .facebook a {
     color: #4c66a4;
 }
-.content-footer .instagram {
+.content-footer .instagram a {
     color: #3f729b;
 }
 
@@ -617,3 +625,4 @@ section > div > h1 {
   color: #d9b504;
   font-weight: bold;
 }
+
